@@ -1,0 +1,22 @@
+{
+  "name": "kodluyoruz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0",
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
